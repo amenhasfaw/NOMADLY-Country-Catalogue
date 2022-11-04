@@ -2,6 +2,10 @@
 
 # NOMADLY - Country Catalogue
 
+<a href='https://amenhasfaw.github.io/NOMADLY-Country-Catalogue/'> CLICK HERE
+  <img src="https://img.icons8.com/clouds/512/cloud-link.png" style='width:50px'/>
+</a>
+
 
 To run the project:
 
