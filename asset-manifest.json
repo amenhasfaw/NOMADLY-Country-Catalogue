@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/nomadly-country-catalogue/static/css/main.a58e66ea.css",
+    "main.js": "/nomadly-country-catalogue/static/js/main.4ee0fe28.js",
+    "static/media/The Quick South St.woff": "/nomadly-country-catalogue/static/media/The Quick South St.14619c8f87f5963de6cc.woff",
+    "index.html": "/nomadly-country-catalogue/index.html",
+    "main.a58e66ea.css.map": "/nomadly-country-catalogue/static/css/main.a58e66ea.css.map",
+    "main.4ee0fe28.js.map": "/nomadly-country-catalogue/static/js/main.4ee0fe28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a58e66ea.css",
+    "static/js/main.4ee0fe28.js"
+  ]
+}
