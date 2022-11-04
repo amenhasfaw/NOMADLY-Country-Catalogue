@@ -34,7 +34,7 @@ class App extends Component {
       <h1 className="f-headline tc" style={{height: '100vh'}}>Loading...</h1> :
       (
         <div className='tc'>
-          <h1 className='f-headline'>Nomadly</h1>
+          <h1 className='f-subheadline'>Nomadly</h1>
           <SearchBox searchChange={this.onSearchChange}/>
           <Scroll>
             <CardList countries={filteredcountries} />
