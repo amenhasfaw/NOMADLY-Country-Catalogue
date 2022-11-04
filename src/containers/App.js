@@ -29,7 +29,7 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
     return !robots.length ?
-      <h1>Loading</h1> :
+      <h1 className="f-headline tc" style={{height: '100vh'}}>Loading...</h1> :
       (
         <div className='tc'>
           <h1 className='f-headline'>Nomadly</h1>
