@@ -9,7 +9,10 @@ class Card extends React.Component {
         <h2>{this.props.name}</h2>
         <p><strong>Capital City: </strong> {this.props.capital}</p>
         <p><strong>Population: </strong> {this.props.population}</p>
+        <p><strong>Area: </strong> {this.props.area} ㎢</p>
         <p><strong>Region: </strong> {this.props.region}</p>
+        <p><strong>Sub-region: </strong> {this.props.subregion}</p>
+        <p><strong>Map: </strong> <a href={`${this.props.maps}`}>Google Map Link</a></p>
 
       </div>
     </div>
