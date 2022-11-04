@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://restcountries.com/v3.1/all')
       .then(response=> response.json())
       .then(users => {this.setState({ robots: users})});
   }
@@ -25,8 +25,10 @@ class App extends Component {
 
   render() {
     const { robots, searchfield } = this.state;
+    console.log(this.state.robots)
+
     const filteredRobots = robots.filter(robot =>{
-      return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+      return robot.name.common.toLowerCase().includes(searchfield.toLowerCase());
     })
     return !robots.length ?
       <h1 className="f-headline tc" style={{height: '100vh'}}>Loading...</h1> :

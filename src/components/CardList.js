@@ -10,9 +10,14 @@ class CardList extends React.Component {
           return (
             <Card
               key={i}
-              id={this.props.robots[i].id}
-              name={this.props.robots[i].name}
-              email={this.props.robots[i].email}
+              id={this.props.robots[i].ccn3}
+              name={this.props.robots[i].name.common}
+              capital={this.props.robots[i].capital}
+              region={this.props.robots[i].region}
+              population={this.props.robots[i].population}
+
+
+
               />
           );
         })
