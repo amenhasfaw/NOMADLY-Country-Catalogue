@@ -6,18 +6,15 @@ class CardList extends React.Component {
     return (
     <div>
       {
-        this.props.robots.map((user, i) => {
+        this.props.countries.map((user, i) => {
           return (
             <Card
               key={i}
-              id={this.props.robots[i].ccn3}
-              name={this.props.robots[i].name.common}
-              capital={this.props.robots[i].capital}
-              region={this.props.robots[i].region}
-              population={this.props.robots[i].population}
-
-
-
+              id={this.props.countries[i].ccn3}
+              name={this.props.countries[i].name.common}
+              capital={this.props.countries[i].capital}
+              region={this.props.countries[i].region}
+              population={this.props.countries[i].population}
               />
           );
         })

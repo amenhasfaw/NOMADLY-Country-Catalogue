@@ -8,7 +8,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      robots: [],
+      countries: [],
       searchfield: ''
     }
   }
@@ -16,7 +16,7 @@ class App extends Component {
   componentDidMount() {
     fetch('https://restcountries.com/v3.1/all')
       .then(response=> response.json())
-      .then(users => {this.setState({ robots: users})});
+      .then(users => {this.setState({ countries: users})});
   }
 
   onSearchChange = (event) => {
@@ -24,20 +24,20 @@ class App extends Component {
   }
 
   render() {
-    const { robots, searchfield } = this.state;
-    console.log(this.state.robots)
+    const { countries, searchfield } = this.state;
+    console.log(this.state.countries)
 
-    const filteredRobots = robots.filter(robot =>{
-      return robot.name.common.toLowerCase().includes(searchfield.toLowerCase());
+    const filteredcountries = countries.filter(country =>{
+      return country.name.common.toLowerCase().includes(searchfield.toLowerCase());
     })
-    return !robots.length ?
+    return !countries.length ?
       <h1 className="f-headline tc" style={{height: '100vh'}}>Loading...</h1> :
       (
         <div className='tc'>
           <h1 className='f-headline'>Nomadly</h1>
           <SearchBox searchChange={this.onSearchChange}/>
           <Scroll>
-            <CardList robots={filteredRobots} />
+            <CardList countries={filteredcountries} />
           </Scroll>
         </div>
       );
