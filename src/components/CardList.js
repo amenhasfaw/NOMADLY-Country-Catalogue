@@ -12,8 +12,12 @@ class CardList extends React.Component {
               key={i}
               id={this.props.countries[i].ccn3}
               name={this.props.countries[i].name.common}
+              official={this.props.countries[i].name.official}
+              abbreviation={this.props.countries[i].cca3}
               capital={this.props.countries[i].capital}
               area={this.props.countries[i].area}
+              flags={this.props.countries[i].flag}
+              domain={this.props.countries[i].tld}
               region={this.props.countries[i].region}
               subregion={this.props.countries[i].subregion}
               maps={this.props.countries[i].maps.googleMaps}

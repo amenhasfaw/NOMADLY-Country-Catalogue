@@ -35,6 +35,7 @@ class App extends Component {
       (
         <div className='tc'>
           <h1 className='f-subheadline'>Nomadly</h1>
+          <h3 className='f5'>- - Country Catalogue - -</h3>
           <SearchBox searchChange={this.onSearchChange}/>
           <Scroll>
             <CardList countries={filteredcountries} />
