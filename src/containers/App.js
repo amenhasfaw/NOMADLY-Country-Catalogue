@@ -25,7 +25,6 @@ class App extends Component {
 
   render() {
     const { countries, searchfield } = this.state;
-    console.log(this.state.countries)
 
     const filteredcountries = countries.filter(country =>{
       return country.name.common.toLowerCase().includes(searchfield.toLowerCase());
