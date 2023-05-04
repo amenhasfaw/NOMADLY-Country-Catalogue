@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NOMADLY-Country-Catalogue/static/css/main.49e1836c.css",
-    "main.js": "/NOMADLY-Country-Catalogue/static/js/main.4ee0fe28.js",
+    "main.js": "/NOMADLY-Country-Catalogue/static/js/main.aff59fcd.js",
     "static/media/The Quick South St.woff": "/NOMADLY-Country-Catalogue/static/media/The Quick South St.14619c8f87f5963de6cc.woff",
     "index.html": "/NOMADLY-Country-Catalogue/index.html",
     "main.49e1836c.css.map": "/NOMADLY-Country-Catalogue/static/css/main.49e1836c.css.map",
-    "main.4ee0fe28.js.map": "/NOMADLY-Country-Catalogue/static/js/main.4ee0fe28.js.map"
+    "main.aff59fcd.js.map": "/NOMADLY-Country-Catalogue/static/js/main.aff59fcd.js.map"
   },
   "entrypoints": [
     "static/css/main.49e1836c.css",
-    "static/js/main.4ee0fe28.js"
+    "static/js/main.aff59fcd.js"
   ]
 }
